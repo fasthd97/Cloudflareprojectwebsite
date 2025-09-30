@@ -1,0 +1,26 @@
+# Example Terraform variables file for AWS Resume Website
+# Copy this to terraform.tfvars and fill in your actual values
+
+# AWS Configuration
+aws_region = "us-east-1"
+environment = "prod"
+
+# Domain Configuration (must have Route 53 hosted zone)
+domain_name = "yourname.com"
+api_subdomain = "api"
+
+# Security
+jwt_secret = "your-super-secret-jwt-key-generate-with-openssl-rand-base64-32"
+admin_email = "your.email@example.com"
+admin_password = "your-secure-admin-password"
+
+# Container Configuration (cost optimized)
+container_cpu = 256      # 0.25 vCPU
+container_memory = 512   # 512 MB
+min_capacity = 1         # Minimum tasks
+max_capacity = 3         # Maximum tasks
+enable_spot_instances = true  # Use Fargate Spot for 70% savings
+
+# Database Configuration (cost optimized)
+db_min_capacity = 0.5    # Minimum Aurora capacity units
+db_max_capacity = 1      # Maximum Aurora capacity units

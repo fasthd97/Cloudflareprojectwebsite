@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>George Bennett - Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-title">George Bennett</h1>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <button id="loginBtn" class="auth-btn">Friend Login</button>
+                <button id="logoutBtn" class="auth-btn hidden">Logout</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>George Bennett</h1>
+                        <h2 class="hero-title">Solutions Architect</h2>
+                        <p class="hero-subtitle">Designing secure, scalable cloud infrastructures with expertise in AWS services, Well-Architected principles, and driving customer success through innovative solutions</p>
+                        <div class="hero-stats">
+                            <div class="stat">
+                                <span class="stat-number">100+</span>
+                                <span class="stat-label">Customer Engagements</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">5</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">8</span>
+                                <span class="stat-label">Certifications</span>
+                            </div>
+                        </div>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn primary">
+                                <span>Get In Touch</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="m9 18 6-6-6-6"/>
+                                </svg>
+                            </a>
+                            <a href="/resume.pdf" class="btn secondary" target="_blank">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                    <polyline points="7,10 12,15 17,10"/>
+                                    <line x1="12" y1="15" x2="12" y2="3"/>
+                                </svg>
+                                <span>Download Resume</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="image-container">
+                            <img src="headshot.jpg" alt="George Bennett - Professional Headshot" class="headshot">
+                            <div class="image-decoration"></div>
+                        </div>
+                        <div class="floating-card">
+                            <div class="card-content">
+                                <div class="status-indicator"></div>
+                                <span>Available for new opportunities</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About Me</h2>
+                    <p class="section-subtitle">Passionate about creating exceptional digital experiences</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="lead">I'm an AWS Solutions Architect with a passion for designing secure, scalable cloud infrastructures that drive business success. My expertise spans cloud architecture, infrastructure automation, and technical troubleshooting across AWS services.</p>
+                        <p>Currently at Amazon Web Services, I've delivered 50+ customer engagements, architecting solutions that improve performance, reduce costs, and accelerate business outcomes. I serve as a Next Generation Developer Experience ambassador and have created workshops published on the AWS platform to help customers adopt generative AI and cloud capabilities.</p>
+                        <div class="about-highlights">
+                            <div class="highlight">
+                                <h4>☁️ Cloud Architecture</h4>
+                                <p>Expert in designing robust AWS infrastructures optimized for security, availability, and cost-efficiency</p>
+                            </div>
+                            <div class="highlight">
+                                <h4>🛠️ Technical Leadership</h4>
+                                <p>NGDE Technical Field Community ambassador delivering guidance on IaC, CI/CD, and serverless development</p>
+                            </div>
+                            <div class="highlight">
+                                <h4>🎯 Customer Success</h4>
+                                <p>Proven track record of translating complex business requirements into scalable cloud solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-skills">
+                        <h3>Core Expertise</h3>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h4>AWS Services</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">EC2</span>
+                                    <span class="skill-tag">S3</span>
+                                    <span class="skill-tag">VPC</span>
+                                    <span class="skill-tag">Lambda</span>
+                                    <span class="skill-tag">CloudFormation</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Infrastructure & Development</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Infrastructure as Code</span>
+                                    <span class="skill-tag">CI/CD</span>
+                                    <span class="skill-tag">Serverless</span>
+                                    <span class="skill-tag">AWS CLI</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Systems & Architecture</h4>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Cloud Architecture</span>
+                                    <span class="skill-tag">Linux Systems</span>
+                                    <span class="skill-tag">Networking</span>
+                                    <span class="skill-tag">Security</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>Solutions Architect</h3>
+                        <p class="company">Amazon Web Services, Austin, TX • September 2023 - Present</p>
+                        <p>Delivered 100+ customer engagements, architecting AWS solutions that improved performance, reduced costs, and accelerated business outcomes. Serve as NGDE Technical Field Community ambassador, delivering expert guidance on Infrastructure as Code, CI/CD integration, and serverless application development. Created and led the "Q Activation Day" workshop published on AWS Workshops platform.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Cloud Support Engineer</h3>
+                        <p class="company">Amazon Web Services, Portland, OR • January 2022 - September 2023</p>
+                        <p>Delivered technical support across multiple channels, successfully resolving 800+ customer cases spanning networking, compute, and security services. Provided advanced troubleshooting for CloudFormation, resolving 28+ support operations cases and contributing to infrastructure automation reliability improvements.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Network Operations Associate</h3>
+                        <p class="company">Spectrum, Austin, TX • September 2021 - December 2021</p>
+                        <p>Delivered frontline technical support by diagnosing and resolving customer network connectivity issues. Monitored call queues and applied workload management strategies to minimize customer wait times and maintain SLAs.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Q Activation Day Workshop</h3>
+                        <p>Created and published workshop on AWS Workshops platform enabling customers to accelerate adoption of generative AI and cloud capabilities. Led multiple customer sessions driving AI transformation initiatives.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn small secondary">Documentation</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <h3>CloudFormation Troubleshooting</h3>
+                        <p>Advanced troubleshooting and resolution of 48+ CloudFormation support cases, contributing to infrastructure automation reliability improvements and customer success.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn small secondary">Best Practices</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="credentials" class="section credentials-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Professional Links & Certifications</h2>
+                    <p class="section-subtitle">Connect with me and view my verified credentials</p>
+                </div>
+                
+                <div class="credentials-content">
+                    <div class="professional-links">
+                        <h3>Connect With Me</h3>
+                        <div class="links-grid">
+                            <a href="https://linkedin.com/in/george-bennett-2a604157" target="_blank" rel="noopener" class="profile-link linkedin">
+                                <div class="link-icon">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                    </svg>
+                                </div>
+                                <div class="link-content">
+                                    <h4>LinkedIn</h4>
+                                    <p>Professional network & experience</p>
+                                    <span class="link-url">linkedin.com/in/george-bennett-2a604157</span>
+                                </div>
+                                <div class="link-arrow">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                                    </svg>
+                                </div>
+                            </a>
+
+                            <a href="https://github.com/fasthd97" target="_blank" rel="noopener" class="profile-link github">
+                                <div class="link-icon">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                    </svg>
+                                </div>
+                                <div class="link-content">
+                                    <h4>GitHub Personal</h4>
+                                    <p>Personal projects & repositories</p>
+                                    <span class="link-url">github.com/fasthd97</span>
+                                </div>
+                                <div class="link-arrow">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                                    </svg>
+                                </div>
+                            </a>
+
+                            <a href="https://github.com/geobennz" target="_blank" rel="noopener" class="profile-link github">
+                                <div class="link-icon">
+                                    <svg viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                    </svg>
+                                </div>
+                                <div class="link-content">
+                                    <h4>GitHub AWS</h4>
+                                    <p>Professional & work repositories</p>
+                                    <span class="link-url">github.com/geobennz</span>
+                                </div>
+                                <div class="link-arrow">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                                    </svg>
+                                </div>
+                            </a>
+
+                            <a href="mailto:fasthd97@gmail.com" class="profile-link email">
+                                <div class="link-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                        <polyline points="22,6 12,13 2,6"/>
+                                    </svg>
+                                </div>
+                                <div class="link-content">
+                                    <h4>Email</h4>
+                                    <p>Direct professional contact</p>
+                                    <span class="link-url">fasthd97@gmail.com</span>
+                                </div>
+                                <div class="link-arrow">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="certifications">
+                        <h3>Certifications & Credentials</h3>
+                        
+                        <!-- AWS Certifications -->
+                        <div class="cert-category">
+                            <h4 class="cert-category-title">
+                                <span class="category-icon aws-icon">☁️</span>
+                                Amazon Web Services (AWS)
+                            </h4>
+                            <div class="certs-grid">
+                                <div class="cert-card">
+                                    <div class="cert-header">
+                                        <div class="cert-logo aws">
+                                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M6.763 10.036c0 .296.032.535.088.71.064.176.144.368.256.576.048.08.064.16.064.24 0 .096-.064.192-.176.288l-.592.384c-.08.056-.16.08-.24.08-.096 0-.192-.048-.288-.144-.112-.112-.208-.24-.288-.368-.08-.144-.16-.304-.256-.48-.64.752-1.44 1.136-2.4 1.136-.688 0-1.232-.192-1.648-.576-.416-.384-.624-.896-.624-1.552 0-.688.24-1.248.736-1.68.48-.432 1.136-.64 1.952-.64.272 0 .544.016.832.064.288.032.576.096.88.16v-.528c0-.544-.112-.928-.32-1.152-.224-.224-.608-.336-1.136-.336-.256 0-.528.032-.784.08-.272.048-.528.112-.784.192-.112.048-.192.064-.256.064-.224 0-.336-.16-.336-.496v-.784c0-.256.032-.448.112-.528.08-.08.224-.16.432-.24.256-.112.576-.208.944-.272.384-.08.784-.112 1.2-.112.912 0 1.584.208 2.016.624.416.416.624 1.056.624 1.936v2.544zm-3.312 1.216c.256 0 .528-.048.784-.144.272-.096.512-.272.704-.496.112-.144.192-.304.224-.496.032-.192.064-.416.064-.672v-.32c-.208-.048-.432-.08-.672-.112-.24-.016-.464-.032-.704-.032-.496 0-.864.096-1.104.288-.24.192-.368.464-.368.816 0 .336.08.576.256.736.176.144.416.224.816.224zm6.24 1.072c-.288 0-.48-.048-.608-.16-.128-.096-.24-.288-.32-.544l-3.584-11.84c-.08-.256-.112-.432-.112-.528 0-.208.112-.336.32-.336h1.312c.304 0 .512.048.624.16.128.096.224.288.288.544l2.56 10.08 2.368-10.08c.048-.256.144-.448.272-.544.128-.112.336-.16.64-.16h1.072c.304 0 .512.048.64.16.128.096.24.288.272.544l2.4 10.16 2.64-10.16c.064-.256.176-.448.288-.544.128-.112.336-.16.624-.16h1.248c.208 0 .336.112.336.336 0 .064-.016.144-.032.224-.016.096-.048.208-.096.352l-3.68 11.84c-.08.256-.192.448-.32.544-.128.112-.336.16-.608.16h-1.152c-.304 0-.512-.048-.64-.16-.128-.112-.24-.304-.272-.56l-2.336-9.744-2.32 9.744c-.048.256-.144.448-.272.56-.128.112-.336.16-.64.16h-1.152z"/>
+                                            </svg>
+                                        </div>
+                                        <div class="cert-info">
+                                            <h4>AWS Solutions Architect - Associate</h4>
+                                            <p class="cert-issuer">Amazon Web Services</p>
+                                        </div>
+                                    </div>
+                                    <div class="cert-details">
+                                        <p class="cert-date">Valid: 2023 - 2026</p>
+                                        <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/454c3095990b4348a0ae7e265bf6d9a6" class="cert-verify" target="_blank">Verify Credential</a>
+                                    </div>
+                                </div>
+
+                                <div class="cert-card">
+                                    <div class="cert-header">
+                                        <div class="cert-logo aws">
+                                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M6.763 10.036c0 .296.032.535.088.71.064.176.144.368.256.576.048.08.064.16.064.24 0 .096-.064.192-.176.288l-.592.384c-.08.056-.16.08-.24.08-.096 0-.192-.048-.288-.144-.112-.112-.208-.24-.288-.368-.08-.144-.16-.304-.256-.48-.64.752-1.44 1.136-2.4 1.136-.688 0-1.232-.192-1.648-.576-.416-.384-.624-.896-.624-1.552 0-.688.24-1.248.736-1.68.48-.432 1.136-.64 1.952-.64.272 0 .544.016.832.064.288.032.576.096.88.16v-.528c0-.544-.112-.928-.32-1.152-.224-.224-.608-.336-1.136-.336-.256 0-.528.032-.784.08-.272.048-.528.112-.784.192-.112.048-.192.064-.256.064-.224 0-.336-.16-.336-.496v-.784c0-.256.032-.448.112-.528.08-.08.224-.16.432-.24.256-.112.576-.208.944-.272.384-.08.784-.112 1.2-.112.912 0 1.584.208 2.016.624.416.416.624 1.056.624 1.936v2.544zm-3.312 1.216c.256 0 .528-.048.784-.144.272-.096.512-.272.704-.496.112-.144.192-.304.224-.496.032-.192.064-.416.064-.672v-.32c-.208-.048-.432-.08-.672-.112-.24-.016-.464-.032-.704-.032-.496 0-.864.096-1.104.288-.24.192-.368.464-.368.816 0 .336.08.576.256.736.176.144.416.224.816.224zm6.24 1.072c-.288 0-.48-.048-.608-.16-.128-.096-.24-.288-.32-.544l-3.584-11.84c-.08-.256-.112-.432-.112-.528 0-.208.112-.336.32-.336h1.312c.304 0 .512.048.624.16.128.096.224.288.288.544l2.56 10.08 2.368-10.08c.048-.256.144-.448.272-.544.128-.112.336-.16.64-.16h1.072c.304 0 .512.048.64.16.128.096.24.288.272.544l2.4 10.16 2.64-10.16c.064-.256.176-.448.288-.544.128-.112.336-.16.624-.16h1.248c.208 0 .336.112.336.336 0 .064-.016.144-.032.224-.016.096-.048.208-.096.352l-3.68 11.84c-.08.256-.192.448-.32.544-.128.112-.336.16-.608.16h-1.152c-.304 0-.512-.048-.64-.16-.128-.112-.24-.304-.272-.56l-2.336-9.744-2.32 9.744c-.048.256-.144.448-.272.56-.128.112-.336.16-.64.16h-1.152z"/>
+                                            </svg>
+                                        </div>
+                                        <div class="cert-info">
+                                            <h4>AWS Developer - Associate</h4>
+                                            <p class="cert-issuer">Amazon Web Services</p>
+                                        </div>
+                                    </div>
+                                    <div class="cert-details">
+                                        <p class="cert-date">Valid: 2023 - 2026</p>
+                                        <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/4adad76f4855449fa868932c738e0c9b" class="cert-verify" target="_blank">Verify Credential</a>
+                                    </div>
+                                </div>
+
+                                <div class="cert-card">
+                                    <div class="cert-header">
+                                        <div class="cert-logo aws">
+                                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M6.763 10.036c0 .296.032.535.088.71.064.176.144.368.256.576.048.08.064.16.064.24 0 .096-.064.192-.176.288l-.592.384c-.08.056-.16.08-.24.08-.096 0-.192-.048-.288-.144-.112-.112-.208-.24-.288-.368-.08-.144-.16-.304-.256-.48-.64.752-1.44 1.136-2.4 1.136-.688 0-1.232-.192-1.648-.576-.416-.384-.624-.896-.624-1.552 0-.688.24-1.248.736-1.68.48-.432 1.136-.64 1.952-.64.272 0 .544.016.832.064.288.032.576.096.88.16v-.528c0-.544-.112-.928-.32-1.152-.224-.224-.608-.336-1.136-.336-.256 0-.528.032-.784.08-.272.048-.528.112-.784.192-.112.048-.192.064-.256.064-.224 0-.336-.16-.336-.496v-.784c0-.256.032-.448.112-.528.08-.08.224-.16.432-.24.256-.112.576-.208.944-.272.384-.08.784-.112 1.2-.112.912 0 1.584.208 2.016.624.416.416.624 1.056.624 1.936v2.544zm-3.312 1.216c.256 0 .528-.048.784-.144.272-.096.512-.272.704-.496.112-.144.192-.304.224-.496.032-.192.064-.416.064-.672v-.32c-.208-.048-.432-.08-.672-.112-.24-.016-.464-.032-.704-.032-.496 0-.864.096-1.104.288-.24.192-.368.464-.368.816 0 .336.08.576.256.736.176.144.416.224.816.224zm6.24 1.072c-.288 0-.48-.048-.608-.16-.128-.096-.24-.288-.32-.544l-3.584-11.84c-.08-.256-.112-.432-.112-.528 0-.208.112-.336.32-.336h1.312c.304 0 .512.048.624.16.128.096.224.288.288.544l2.56 10.08 2.368-10.08c.048-.256.144-.448.272-.544.128-.112.336-.16.64-.16h1.072c.304 0 .512.048.64.16.128.096.24.288.272.544l2.4 10.16 2.64-10.16c.064-.256.176-.448.288-.544.128-.112.336-.16.624-.16h1.248c.208 0 .336.112.336.336 0 .064-.016.144-.032.224-.016.096-.048.208-.096.352l-3.68 11.84c-.08.256-.192.448-.32.544-.128.112-.336.16-.608.16h-1.152c-.304 0-.512-.048-.64-.16-.128-.112-.24-.304-.272-.56l-2.336-9.744-2.32 9.744c-.048.256-.144.448-.272.56-.128.112-.336.16-.64.16h-1.152z"/>
+                                            </svg>
+                                        </div>
+                                        <div class="cert-info">
+                                            <h4>AWS SysOps Administrator - Associate</h4>
+                                            <p class="cert-issuer">Amazon Web Services</p>
+                                        </div>
+                                    </div>
+                                    <div class="cert-details">
+                                        <p class="cert-date">Valid: 2023 - 2026</p>
+                                        <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/3a6b8c8ef12846658f59ca387a228257" class="cert-verify" target="_blank">Verify Credential</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CompTIA Certifications -->
+                        <div class="cert-category">
+                            <h4 class="cert-category-title">
+                                <span class="category-icon comptia-icon">🛡️</span>
+                                CompTIA
+                            </h4>
+                            <div class="certs-grid">
+                                <div class="cert-card">
+                                    <div class="cert-header">
+                                        <div class="cert-logo comptia">
+                                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                            </svg>
+                                        </div>
+                                        <div class="cert-info">
+                                            <h4>CompTIA Security+</h4>
+                                            <p class="cert-issuer">CompTIA</p>
+                                        </div>
+                                    </div>
+                                    <div class="cert-details">
+                                        <p class="cert-date">Valid: 2022 - 2025</p>
+                                        <a href="https://certmetrics.com/comptia/public/verification.aspx?code=R1M8TZYE03FEQZ9D" class="cert-verify" target="_blank">Verify Credential</a>
+                                    </div>
+                                </div>
+
+                                <div class="cert-card">
+                                    <div class="cert-header">
+                                        <div class="cert-logo comptia">
+                                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                            </svg>
+                                        </div>
+                                        <div class="cert-info">
+                                            <h4>CompTIA Network+</h4>
+                                            <p class="cert-issuer">CompTIA</p>
+                                        </div>
+                                    </div>
+                                    <div class="cert-details">
+                                        <p class="cert-date">Valid: 2022 - 2025</p>
+                                        <a href="https://certmetrics.com/comptia/public/verification.aspx?code=6N6GWRFGZPQQQ15K" class="cert-verify" target="_blank">Verify Credential</a>
+                                    </div>
+                                </div>
+
+                                <div class="cert-card">
+                                    <div class="cert-header">
+                                        <div class="cert-logo comptia">
+                                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                            </svg>
+                                        </div>
+                                        <div class="cert-info">
+                                            <h4>CompTIA A+</h4>
+                                            <p class="cert-issuer">CompTIA</p>
+                                        </div>
+                                    </div>
+                                    <div class="cert-details">
+                                        <p class="cert-date">Valid: 2022 - 2025</p>
+                                        <a href="https://certmetrics.com/comptia/public/verification.aspx?code=LRHK1582RH1QC2DK" class="cert-verify" target="_blank">Verify Credential</a>
+                                    </div>
+                                </div>
+
+                                <div class="cert-card">
+                                    <div class="cert-header">
+                                        <div class="cert-logo comptia">
+                                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                            </svg>
+                                        </div>
+                                        <div class="cert-info">
+                                            <h4>CompTIA Linux+</h4>
+                                            <p class="cert-issuer">CompTIA</p>
+                                        </div>
+                                    </div>
+                                    <div class="cert-details">
+                                        <p class="cert-date">Valid: 2022 - 2025</p>
+                                        <a href="https://certmetrics.com/comptia/public/verification.aspx?code=L6DWTE3FZLV1Q2GJ" class="cert-verify" target="_blank">Verify Credential</a>
+                                    </div>
+                                </div>
+
+                                <div class="cert-card">
+                                    <div class="cert-header">
+                                        <div class="cert-logo comptia">
+                                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                            </svg>
+                                        </div>
+                                        <div class="cert-info">
+                                            <h4>CompTIA Project+</h4>
+                                            <p class="cert-issuer">CompTIA</p>
+                                        </div>
+                                    </div>
+                                    <div class="cert-details">
+                                        <p class="cert-date">Valid: 2022 - 2025</p>
+                                        <a href="https://certmetrics.com/comptia/public/verification.aspx?code=44RDRTGM834Q19GT" class="cert-verify" target="_blank">Verify Credential</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- LPIC Certifications -->
+                        <div class="cert-category">
+                            <h4 class="cert-category-title">
+                                <span class="category-icon lpic-icon">🐧</span>
+                                Linux Professional Institute (LPI)
+                            </h4>
+                            <div class="certs-grid">
+                                <div class="cert-card">
+                                    <div class="cert-header">
+                                        <div class="cert-logo lpic">
+                                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M12.504 0C5.625 0 0.057 5.568 0.057 12.447c0 5.49 3.552 10.152 8.496 11.814 0.621 0.114 0.848-0.27 0.848-0.599 0-0.294-0.011-1.075-0.017-2.11-3.456 0.751-4.185-1.665-4.185-1.665-0.566-1.438-1.381-1.82-1.381-1.82-1.13-0.772 0.085-0.756 0.085-0.756 1.249 0.087 1.907 1.283 1.907 1.283 1.11 1.902 2.913 1.352 3.622 1.034 0.113-0.804 0.435-1.352 0.791-1.663-2.765-0.314-5.669-1.383-5.669-6.157 0-1.36 0.486-2.471 1.283-3.342-0.128-0.315-0.556-1.582 0.122-3.297 0 0 1.045-0.335 3.425 1.277 0.993-0.276 2.058-0.414 3.115-0.419 1.057 0.005 2.122 0.143 3.115 0.419 2.38-1.612 3.425-1.277 3.425-1.277 0.678 1.715 0.25 2.982 0.122 3.297 0.797 0.871 1.283 1.982 1.283 3.342 0 4.787-2.912 5.84-5.685 6.15 0.447 0.385 0.845 1.145 0.845 2.308 0 1.665-0.015 3.009-0.015 3.417 0 0.333 0.225 0.72 0.854 0.598C20.449 22.596 23.999 17.935 23.999 12.447 23.999 5.568 18.431 0 11.552 0h0.952z"/>
+                                            </svg>
+                                        </div>
+                                        <div class="cert-info">
+                                            <h4>LPIC-1: Linux Administrator</h4>
+                                            <p class="cert-issuer">Linux Professional Institute</p>
+                                        </div>
+                                    </div>
+                                    <div class="cert-details">
+                                        <p class="cert-date">Valid: 2022 - 2027</p>
+                                        <a href="#" class="cert-verify" target="_blank">Verify Credential</a>
+                                    </div>
+                                </div>
+
+                                <div class="cert-card">
+                                    <div class="cert-header">
+                                        <div class="cert-logo lpic">
+                                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M12.504 0C5.625 0 0.057 5.568 0.057 12.447c0 5.49 3.552 10.152 8.496 11.814 0.621 0.114 0.848-0.27 0.848-0.599 0-0.294-0.011-1.075-0.017-2.11-3.456 0.751-4.185-1.665-4.185-1.665-0.566-1.438-1.381-1.82-1.381-1.82-1.13-0.772 0.085-0.756 0.085-0.756 1.249 0.087 1.907 1.283 1.907 1.283 1.11 1.902 2.913 1.352 3.622 1.034 0.113-0.804 0.435-1.352 0.791-1.663-2.765-0.314-5.669-1.383-5.669-6.157 0-1.36 0.486-2.471 1.283-3.342-0.128-0.315-0.556-1.582 0.122-3.297 0 0 1.045-0.335 3.425 1.277 0.993-0.276 2.058-0.414 3.115-0.419 1.057 0.005 2.122 0.143 3.115 0.419 2.38-1.612 3.425-1.277 3.425-1.277 0.678 1.715 0.25 2.982 0.122 3.297 0.797 0.871 1.283 1.982 1.283 3.342 0 4.787-2.912 5.84-5.685 6.15 0.447 0.385 0.845 1.145 0.845 2.308 0 1.665-0.015 3.009-0.015 3.417 0 0.333 0.225 0.72 0.854 0.598C20.449 22.596 23.999 17.935 23.999 12.447 23.999 5.568 18.431 0 11.552 0h0.952z"/>
+                                            </svg>
+                                        </div>
+                                        <div class="cert-info">
+                                            <h4>LPIC-2: Linux Engineer</h4>
+                                            <p class="cert-issuer">Linux Professional Institute</p>
+                                        </div>
+                                    </div>
+                                    <div class="cert-details">
+                                        <p class="cert-date">Valid: 2023 - 2028</p>
+                                        <a href="#" class="cert-verify" target="_blank">Verify Credential</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Expired Certifications (Hidden by default) -->
+                        <div class="cert-category expired-certs" id="expiredCerts" style="display: none;">
+                            <h4 class="cert-category-title">
+                                <span class="category-icon cisco-icon">🌐</span>
+                                Cisco (Expired)
+                            </h4>
+                            <div class="certs-grid">
+                                <div class="cert-card expired">
+                                    <div class="cert-header">
+                                        <div class="cert-logo cisco">
+                                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M0.5 12C0.5 5.649 5.649 0.5 12 0.5S23.5 5.649 23.5 12 18.351 23.5 12 23.5 0.5 18.351 0.5 12zM12 1.5C6.201 1.5 1.5 6.201 1.5 12S6.201 22.5 12 22.5 22.5 17.799 22.5 12 17.799 1.5 12 1.5z"/>
+                                                <path d="M8 8h8v8H8z"/>
+                                            </svg>
+                                        </div>
+                                        <div class="cert-info">
+                                            <h4>CCNA: Cisco Certified Network Associate</h4>
+                                            <p class="cert-issuer">Cisco Systems</p>
+                                        </div>
+                                    </div>
+                                    <div class="cert-details">
+                                        <p class="cert-date expired-date">Expired: August 2024</p>
+                                        <a href="https://cp.certmetrics.com/cisco/en/public/verify/credential/G2G80K5MQGR41P9J" class="cert-verify expired" target="_blank">Verify Credential</a>
+                                    </div>
+                                </div>
+
+                                <div class="cert-card expired">
+                                    <div class="cert-header">
+                                        <div class="cert-logo cisco">
+                                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M0.5 12C0.5 5.649 5.649 0.5 12 0.5S23.5 5.649 23.5 12 18.351 23.5 12 23.5 0.5 18.351 0.5 12zM12 1.5C6.201 1.5 1.5 6.201 1.5 12S6.201 22.5 12 22.5 22.5 17.799 22.5 12 17.799 1.5 12 1.5z"/>
+                                                <path d="M8 8h8v8H8z"/>
+                                            </svg>
+                                        </div>
+                                        <div class="cert-info">
+                                            <h4>CCENT: Cisco Certified Entry Networking Technician</h4>
+                                            <p class="cert-issuer">Cisco Systems</p>
+                                        </div>
+                                    </div>
+                                    <div class="cert-details">
+                                        <p class="cert-date expired-date">Expired: May 2023 (Retired)</p>
+                                        <a href="https://cp.certmetrics.com/cisco/en/public/verify/credential/N15TEG3H1PBE1QGX" class="cert-verify expired" target="_blank">Verify Credential</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Toggle button for expired certs -->
+                        <div class="expired-toggle">
+                            <button id="toggleExpired" class="toggle-btn">
+                                <span class="toggle-text">Show Expired Certifications</span>
+                                <svg class="toggle-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="6,9 12,15 18,9"></polyline>
+                                </svg>
+                            </button>
+                        </div>
+                        
+                        <div class="certs-footer">
+                            <p class="certs-note">All certifications are current and verified. Click "Verify Credential" to check authenticity through the issuing organization.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Protected Content Section -->
+        <section id="protected" class="section protected-section hidden">
+            <div class="container">
+                <div class="friends-welcome">
+                    <div class="welcome-header">
+                        <h2>Hey there, friend! 👋</h2>
+                        <p class="welcome-message">Welcome to my personal space! Here's some behind-the-scenes content just for you.</p>
+                    </div>
+                    <div class="personal-note">
+                        <div class="note-content">
+                            <div class="note-icon">💭</div>
+                            <div class="note-text">
+                                <p><strong>A little note from me:</strong> Thanks for being part of my journey! This section is where I share the more personal side of my work and life. Feel free to browse around and don't hesitate to reach out if anything catches your eye!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="protected-content">
+                    <div class="content-section">
+                        <div class="section-header-friendly">
+                            <h3>📸 Personal Gallery</h3>
+                            <p>Some moments from my coding journey, team events, and life adventures</p>
+                        </div>
+                        <div id="photoGallery" class="photo-grid-friendly">
+                            <!-- Photos will be loaded here -->
+                        </div>
+                        <div class="gallery-footer">
+                            <p class="casual-text">Click any photo to see it larger! Some of these are from hackathons, team outings, and random coding sessions ☕</p>
+                        </div>
+                    </div>
+
+                    <div class="content-section">
+                        <div class="section-header-friendly">
+                            <h3>📄 Personal Documents</h3>
+                            <p>Some extra resources, detailed project docs, and things I thought you might find interesting</p>
+                        </div>
+                        <div id="documentsList" class="docs-list-friendly">
+                            <!-- Documents will be loaded here -->
+                        </div>
+                        <div class="docs-footer">
+                            <div class="friendly-tip">
+                                <div class="tip-icon">💡</div>
+                                <p><strong>Pro tip:</strong> Some of these docs have my personal notes and lessons learned. Feel free to ask me about any of them!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="friends-footer">
+                    <div class="footer-content">
+                        <div class="personal-contact">
+                            <h4>Let's chat! 💬</h4>
+                            <p>Since you're here, you probably have my personal contact info, but just in case:</p>
+                            <div class="contact-options">
+                                <a href="mailto:personal@yourname.com" class="contact-link">
+                                    <span class="contact-icon">📧</span>
+                                    <span>personal@yourname.com</span>
+                                </a>
+                                <a href="tel:+1234567890" class="contact-link">
+                                    <span class="contact-icon">📱</span>
+                                    <span>+1 (234) 567-8900</span>
+                                </a>
+                                <a href="https://calendly.com/yourname" class="contact-link" target="_blank">
+                                    <span class="contact-icon">📅</span>
+                                    <span>Schedule a coffee chat</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="fun-fact">
+                            <h4>Random fact about me 🎲</h4>
+                            <p id="randomFact">I once debugged a critical production issue while on a hiking trail using just my phone and a portable hotspot!</p>
+                            <button class="fact-refresh" onclick="refreshFact()">Tell me another! 🔄</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Email: your.email@example.com</p>
+                <p>LinkedIn: linkedin.com/in/yourprofile</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Friend Access</h2>
+            <form id="loginForm">
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit" class="btn primary">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Auth Provider Configuration (choose one) -->
+    <script>
+    // Uncomment and configure your chosen auth provider:
+    
+    // AWS Cognito
+    // window.COGNITO_CONFIG = {
+    //     userPoolId: 'us-east-1_XXXXXXXXX',
+    //     clientId: 'your-client-id',
+    //     domain: 'https://your-domain.auth.us-east-1.amazoncognito.com'
+    // };
+
+    // Okta
+    // window.OKTA_CONFIG = {
+    //     domain: 'dev-123456.okta.com',
+    //     clientId: 'your-client-id',
+    //     issuer: 'https://dev-123456.okta.com/oauth2/default'
+    // };
+
+    // Keycloak
+    // window.KEYCLOAK_CONFIG = {
+    //     url: 'https://auth.yourname.com',
+    //     realm: 'resume',
+    //     clientId: 'resume-website'
+    // };
+    </script>
+
+    <!-- Shared auth configuration (auto-detects provider) -->
+    <script src="../auth-providers/shared/auth-config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

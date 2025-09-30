@@ -1,0 +1,29 @@
+name = "resume-website"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = "public"
+
+[env.production]
+name = "resume-website-prod"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "resume-auth-db"
+database_id = "cca03fd3-c5dc-4e39-b7bb-d1d2a901bdec"
+
+[vars]
+# Basic JWT Auth (fallback)
+JWT_SECRET = "your-jwt-secret-here"
+
+# AWS Cognito (optional)
+# COGNITO_USER_POOL_ID = "us-east-1_XXXXXXXXX"
+# COGNITO_CLIENT_ID = "your-cognito-client-id"
+# AWS_REGION = "us-east-1"
+
+# Okta (optional)
+# OKTA_ISSUER = "https://dev-123456.okta.com/oauth2/default"
+# OKTA_CLIENT_ID = "your-okta-client-id"
+
+# Keycloak (optional)
+# KEYCLOAK_SERVER_URL = "https://auth.yourname.com"
+# KEYCLOAK_REALM = "resume"
+# KEYCLOAK_CLIENT_ID = "resume-website"
